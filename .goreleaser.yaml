@@ -1,0 +1,28 @@
+project_name: sentinel
+
+builds:
+  - skip: true
+
+changelog:
+  skip: false
+  sort: asc
+  use: git
+
+  groups:
+    - title: Features
+      regexp: "^.*feat[(\\w)]*:+.*$"
+      order: 0
+    - title: 'Bug fixes'
+      regexp: "^.*fix[(\\w)]*:+.*$"
+      order: 1
+    - title: 'Enhancements'
+      regexp: "^.*chore[(\\w)]*:+.*$"
+      order: 2
+    - title: Others
+      order: 999
+
+  filters:
+    exclude:
+      - '^ci:'
+      - '^docs:'
+      - '^test:'
