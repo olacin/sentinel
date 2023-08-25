@@ -1,5 +1,9 @@
 # sentinel
 
+[![go report](https://goreportcard.com/badge/github.com/olacin/sentinel)](https://goreportcard.com/report/github.com/olacin/sentinel)
+[![codecov](https://codecov.io/gh/olacin/sentinel/graph/badge.svg?token=MyCssje2s8)](https://codecov.io/gh/olacin/sentinel)
+[![go reference](https://pkg.go.dev/badge/github.com/olacin/sentinel.svg)](https://pkg.go.dev/github.com/olacin/sentinel)
+
 net/http security middleware, inspired from Django security middlewares.
 
 It does not aim to be the perfect security middleware, but can help to setup basic security through setting secure HTTP headers.
